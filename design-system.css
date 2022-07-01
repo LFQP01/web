@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+html, body{
+    min-height: 100vh;
+}
+.full-screen{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+section#intro{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 113, 1) 54%, rgba(0, 212, 255, 1) 100%);
+
+}
+section#quien_soy {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 54%, rgba(0, 212, 255, 1) 100%);
+
+}
+section#cosas_feliz {
+   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+}
+section#cosas_enojar {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+section#unico {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(233, 201, 148, 1) 100%);
+
+}
+h1, h2{
+    background-color: snow ;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'maven pro', sans-serif;
+}
+.menu{
+  position: fixed;
+  width: 100%;
+}
+
+#menu, ul {
+    color: thistle;
+    border: solid 1px black;
+    border-bottom: solid;
+    border-radius: 5px;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(130, 238, 238);
+    margin-bottom: 5px;
+    
+
+} 
+li{
+    list-style: none;
+}
+
+section{
+    display: flex;
+    color: red;
+  
+}
+ul.menu li :hover{
+    color: teal;
+    padding: 15px 10px;
+}
+
+img{
+    width: 75%;
+    height: 75%;
+}
